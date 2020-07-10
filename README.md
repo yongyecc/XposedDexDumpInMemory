@@ -105,7 +105,7 @@ void *dumpdex(const uint8_t *base, size_t size,
 
 `【为什么native层Hook openMemory方法？】`
 
-参考 ![](https://www.processon.com/view/link/5f087f557d9c087fac03fc27) 发布的Dex文件打开流程，4.3以下hook native函数`openDexFileNative`，4.3以上hook`OpenMemory`
+参考 ![aaa](https://www.processon.com/view/link/5f087f557d9c087fac03fc27) Dex文件的加载流程，4.3以下hook native函数`openDexFileNative`，4.3以上hook`OpenMemory`
 
 
 # 参考
