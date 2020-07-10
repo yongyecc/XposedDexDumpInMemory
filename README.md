@@ -102,12 +102,16 @@ void *dumpdex(const uint8_t *base, size_t size,
 ```
 
 # Issues
+
 `【为什么native层Hook openMemory方法？】`
+
 参考 ![](https://www.processon.com/view/link/5f087f557d9c087fac03fc27) 发布的Dex文件打开流程，4.3以下hook native函数`openDexFileNative`，4.3以上hook`OpenMemory`
 
 
-
 # 参考
-[inline-hook](https://github.com/liuyx/inline-hook)
-[[原创]Art 模式 实现Xposed Native注入](https://bbs.pediy.com/thread-251171.htm)
-[Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
+
+【1】 [inline-hook](https://github.com/liuyx/inline-hook)
+
+【2】 [[原创]Art 模式 实现Xposed Native注入](https://bbs.pediy.com/thread-251171.htm)
+
+【3】 [Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
